@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import jsPDF from "jspdf";
 import "./App.css";
 
-const YOUTUBE_API_KEY = "Your youtube api"; // Replace with your actual YouTube API key
-const GEMINI_API_KEY = "Your gemini api"; // Replace with your actual Gemini API key
+const YOUTUBE_API_KEY = "youtube api"; // Replace with your actual YouTube API key
+const GEMINI_API_KEY = "gemini api"; // Replace with your actual Gemini API key
 
 const App = () => {
   const [query, setQuery] = useState("");
